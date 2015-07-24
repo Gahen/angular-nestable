@@ -1,0 +1,7 @@
+<li data-item-id="{{ item.item.categoryId }}">
+	<div class="{{itemClass}}" ng-click="action({item: item.item}, $event)">
+		<div ng-if="handle && handle !== 'false'" class="{{handleClass}}"></div>
+		<div data-nestable-action="toggle"></div>
+		<div class="list-label">{{ item.item.name }}</div>
+	</div>
+</li>

@@ -1,0 +1,15 @@
+{
+  "name": "geopagos",
+  "version": "0.0.0",
+  "dependencies": {
+    "uikit": "~2.18.0",
+    "angular": "^1.3.0",
+    "angular-bootstrap": "~0.13.1",
+    "lodash": "~3.10.0"
+  },
+  "appPath": "app",
+  "resolutions": {
+    "angular": "^1.3.0",
+    "angular-bootstrap": "~0.13.1"
+  }
+}

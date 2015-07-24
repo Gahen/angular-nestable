@@ -1,0 +1,4 @@
+<ul class="{{ctrl.options.rootClass}}">					
+	<li ng-if="ctrl.defaultItem" ng-click="ctrl.action({item: null})"></li>
+	<nestable-item ng-repeat="item in ctrl.list" item="item"></nestable-item>
+</ul>
